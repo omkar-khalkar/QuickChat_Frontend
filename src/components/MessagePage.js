@@ -113,6 +113,7 @@ const MessagePage = () => {
   },[socketConnection,params?.userId,user])
 
   const handleOnChange = (e)=>{
+    // eslint-disable-next-line no-unused-vars
     const { name, value} = e.target
 
     setMessage(preve => {
@@ -195,6 +196,7 @@ const MessagePage = () => {
                                   <img 
                                     src={msg?.imageUrl}
                                     className='w-full h-full object-scale-down'
+                                    alt='img1'
                                   />
                                 )
                               }

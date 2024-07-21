@@ -30,6 +30,7 @@ const SearchUser = ({onClose}) => {
 
     useEffect(()=>{
         handleSearchUser()
+        // eslint-disable-next-line
     },[search])
 
     console.log("searchUser",searchUser)
