@@ -54,9 +54,9 @@ const Home = () => {
 
     dispatch(setSocketConnection(socketConnection))
 
-    return ()=>{
-      socketConnection.disconnect()
-    }
+    //return ()=>{
+     // socketConnection.disconnect()
+    //}
     // eslint-disable-next-line
   },[])
 
